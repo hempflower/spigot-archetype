@@ -1,0 +1,11 @@
+name: basic
+version: ${project.version}
+main: it.pkg.basic
+commands:
+  excmd:
+    usage: /excmd
+    description: An example command.
+    permission: example.use
+permissions:
+  example.use:
+    default: true

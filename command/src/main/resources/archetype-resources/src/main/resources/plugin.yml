@@ -1,0 +1,14 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+name: ${artifactId}
+version: ${project.version}
+main: ${package}.${artifactId}
+commands:
+  excmd:
+    usage: /excmd
+    description: An example command.
+    permission: example.use
+permissions:
+  example.use:
+    default: true

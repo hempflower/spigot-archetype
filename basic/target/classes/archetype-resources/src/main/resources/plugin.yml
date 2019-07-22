@@ -1,0 +1,6 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+name: ${artifactId}
+version: ${project.version}
+main: ${package}.${artifactId}

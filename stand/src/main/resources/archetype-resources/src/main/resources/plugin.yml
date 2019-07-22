@@ -1,0 +1,11 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+name: ${artifactId}
+version: ${project.version}
+main: ${package}.${artifactId}
+depend: []
+softdepend: [Vault,PlaceholderAPI]
+commands:
+  cmd1:
+    usage: /<command>
